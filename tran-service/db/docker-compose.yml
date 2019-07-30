@@ -1,0 +1,8 @@
+version: '1.0.0'
+services:
+  tran-service:
+    image: tran/service
+    ports:
+      - "8880:8880"
+    environment:
+      - spring.profiles.active=dev
