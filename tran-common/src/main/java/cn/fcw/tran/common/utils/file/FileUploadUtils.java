@@ -1,8 +1,6 @@
 package cn.fcw.tran.common.utils.file;
-
 import java.io.File;
 import java.io.IOException;
-
 import cn.fcw.tran.common.exception.file.FileNameLengthLimitExceededException;
 import cn.fcw.tran.common.exception.file.FileSizeLimitExceededException;
 import cn.fcw.tran.common.exception.file.InvalidExtensionException;

@@ -16,6 +16,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class RedisAspect {
+
     private Logger logger = LoggerFactory.getLogger(getClass());
     /**
      * 是否开启redis缓存  true开启   false关闭

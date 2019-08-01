@@ -2,7 +2,6 @@ package cn.fcw.tran.common.utils;
 import cn.fcw.tran.common.exception.CustomException;
 import cn.fcw.tran.common.utils.text.StrFormatter;
 import org.apache.commons.lang.StringUtils;
-
 import java.util.Collection;
 import java.util.Map;
 
@@ -11,7 +10,7 @@ import java.util.Map;
  *
  * @author admin
  */
-public abstract class AssertUtils {
+public  class AssertUtils extends org.apache.commons.lang3.StringUtils {
 
     /** 空字符串 */
     private static final String NULLSTR = "";
